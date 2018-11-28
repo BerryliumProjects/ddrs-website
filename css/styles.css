@@ -1,0 +1,251 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: #445b73;
+    color: white;
+    padding: 5px;
+}
+
+.redhighlight {
+    color: red;
+}
+
+.column {
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.insetpics {
+    float: right;
+    width: 50%;
+}
+
+
+/* Responsive alternatives for phone, tablet and desktop */
+@media (max-width: 500px) {
+    .main {
+        order: 3;
+        flex-grow: 3;
+        width: 100%;
+        margin-top: 10px;
+        font-size: small; 
+    }
+
+    .logo_left {
+        order: 1;
+        min-width: 30%;
+        flex-grow: 1;
+
+    }
+
+    .logo_left img {
+        height: 100px;
+    }
+
+    .logo_right {
+        order: 2;
+        min-width: 30%;
+        flex-grow: 1;
+    }
+
+    .logo_right img {
+        height: 100px;
+    }
+
+    .content {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .menuleft {
+        width: 100%;
+        padding-top:20px;
+    }
+
+    .banner {
+       display: none;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 801px) {
+    .main {
+        order: 3;
+        flex-grow: 3;
+        min-width: 260px;
+        margin-top: 10px;
+    }
+
+    .logo_left {
+        order: 1;
+        min-width: 200px; /* ensure no space left for .main on first flex line */
+        flex-grow: 1;
+    }
+
+    .logo_left img {
+        height: 130px;
+    }
+
+    .logo_right {
+        order: 2;
+        min-width: 200px; /* ensure no space left for .main on first flex line */
+        flex-grow: 1;
+    }
+
+    .logo_right img {
+        height: 130px;
+    }
+
+    .content {
+        width: 75%;
+        padding-left: 20px;
+    }
+
+    .menuleft {
+        width: 25%;
+        padding-top:20px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 20px;
+        background-image: url('desktop_banner_waterfall.jpg');
+        background-repeat: repeat-x;         
+    }
+}
+
+@media screen and (min-width: 802px) {
+    .main {
+        order: 2;
+        flex-grow: 3;
+        width: 480px;
+        margin-top: 30px;
+    }
+
+    .logo_left {
+        order: 1;
+        min-width: 120px;
+        flex-grow: 1;
+    }
+
+    .logo_left img {
+        height: 130px;
+    }
+
+    .logo_right {
+        order: 3;
+        min-width: 120px;
+        flex-grow: 1;
+    }
+
+    .logo_right img {
+        height: 130px;
+    }
+
+    .content {
+        width: 80%;
+        padding-left: 20px;
+    }
+
+    .menuleft {
+        width: 20%;
+        padding-top:20px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 20px;
+        background-image: url('desktop_banner_waterfall.jpg');
+        background-repeat: repeat-x;         
+    }
+}
+
+.content td {
+    padding: 5px;
+}
+
+.menutop {
+    flex: 1 100%;
+    order: 4;
+}
+
+.menutop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menutop li {
+    float: left;
+    display: block;
+}
+
+.menutop li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    /* width: 100%; */
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.menutop li a:hover {
+    background-color: #2d3d4d;
+}
+
+.menutop li a:active, .thispage {
+    background-color: #5a7afa;
+}
+.menuleft ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuleft li {
+
+}
+
+.menuleft li a {
+    font-size: small;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.menuleft li a:link {
+    background-color: #2d3d4d;
+}
+
+.menuleft li a:hover {
+    background-color: #445b73;
+}
+
+.menuleft li a:active, .thispage {
+    background-color: #5a7afa;
+}

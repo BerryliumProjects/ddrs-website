@@ -1,0 +1,35 @@
+<groups>
+	<group topmenutext="Welcome">
+		<link href="index.html" text="Welcome" />
+                <link href="index.html#recentlyadded" text="Recently Added" />
+		<link href="committee.html" text="Leadership" />
+		<link href="contact.html" text="Contact Us" />
+		<link href="training.html" text="Getting Started" />
+		<link href="clubs.html" text="Local Clubs" />
+	</group>
+	<group topmenutext="Locations">
+		<link href="location.html" text="Locations" />
+		<link href="location_dorking.html" text="Dorking" />
+		<link href="location_leithhill.html" text="Leith Hill" />
+		<link href="location_devilsdyke.html" text="Devil's Dyke" />
+		<link href="location_esg.html" text="7th Epsom Scouts" />
+		<link href="location_polesdenlacey.html" text="Polesden Lacey" />
+	</group>
+	<group topmenutext="Calendar">
+		<link href="calendar.html" text="Club Meetings" />
+		<link href="comingup.html" text="Coming Up" />
+		<link href="social.html" text="Socials" />
+		<link href="notable.html" text="Notable Dates" />
+	</group>
+	<group topmenutext="Articles">
+		<!--link href="articles_hifun_latest.html" text="Hi Fun" /-->
+		<!--link href="articles_hifun_previous.html" text="Hi Fun (previous)" /-->
+		<link href="articles_wspr.html" text="WSPR" />
+		<link href="articles_70th_anniversary.html" text="70th Anniversary" />
+		<link href="articles_2el.html" text="Portable Beam" />
+		<link href="articles_hammy_xmas.html" text="Hammy Christmas" />
+                <link href="articles_mifi.html" text="Mobile WiFi" />
+	</group>
+
+
+</groups>
