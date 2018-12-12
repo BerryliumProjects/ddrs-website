@@ -22,6 +22,7 @@
    { "topmenutext": "Calendar", "link":
       [
          { "href": "calendar.html", "text": "Club Meetings" },
+         { "href": "recent.html", "text": "Recent Events" },
          { "href": "comingup.html", "text": "Coming Up" },
          { "href": "social.html", "text": "Socials" },
          { "href": "notable.html", "text": "Notable Dates" }
@@ -32,7 +33,6 @@
          { "href": "articles_wspr.html", "text": "WSPR" },
          { "href": "articles_70th_anniversary.html", "text": "70th Anniversary" },
          { "href": "articles_2el.html", "text": "Portable Beam" },
-         { "href": "articles_hammy_xmas.html", "text": "Hammy Christmas" },
          { "href": "articles_mifi.html", "text": "Mobile WiFi" }
       ]
    }
