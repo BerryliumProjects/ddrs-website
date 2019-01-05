@@ -3,7 +3,7 @@
       [
          { "href": "index.html", "text": "Welcome" },
          { "href": "index.html#recentlyadded", "text": "Recently Added" },
-         { "href": "committee.html", "text": "Leadership" },
+         { "href": "constitution.html", "text": "Constitution" },
          { "href": "contact.html", "text": "Contact Us" },
          { "href": "training.html", "text": "Getting Started" },
          { "href": "clubs.html", "text": "Local Clubs" }

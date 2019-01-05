@@ -122,6 +122,7 @@ foreach $g (@{$menustructure}) {
 # refresh released images if changed or added
 publishfiles("images");
 publishfiles("css");
+publishfiles("docs");
 exit;
 
 

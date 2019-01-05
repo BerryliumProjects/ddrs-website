@@ -2,7 +2,7 @@
 	<group topmenutext="Welcome">
 		<link href="index.html" text="Welcome" />
                 <link href="index.html#recentlyadded" text="Recently Added" />
-		<link href="committee.html" text="Leadership" />
+		<link href="constitution.html" text="Constitution" />
 		<link href="contact.html" text="Contact Us" />
 		<link href="training.html" text="Getting Started" />
 		<link href="clubs.html" text="Local Clubs" />
