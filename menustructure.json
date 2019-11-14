@@ -25,6 +25,7 @@
          { "href": "recent.html", "text": "Recent Events" },
          { "href": "comingup.html", "text": "Coming Up" },
          { "href": "social.html", "text": "Socials" },
+         { "href": "xmasmeal.html", "text": "Christmas Dinner" },
          { "href": "notable.html", "text": "Notable Dates" }
       ]
    },
