@@ -1,0 +1,15 @@
+#! /bin/bash
+echo -n 'Login as: '
+cat release/userid
+echo 'FTP commands after login:'
+echo
+echo 'cd ddrs.org.uk'
+echo 'lcd ftp'
+echo 'prompt'
+echo 'mput *'
+echo 'bye'
+echo
+echo 'If successful: rm ftp/*'
+
+pftp ddrs.org.uk
+

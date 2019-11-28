@@ -3,6 +3,16 @@
 use JSON;
 use File::Copy;
 
+# uncomment to list unchanged files
+#$verbose = 1;
+
+# the release dir contains the full published image, which can be previewed
+mkdir('release') unless (-d 'release');
+
+# the ftp dir contains changes since the last ftp publish action to the webserver
+# changes are identified by comparing new content and assets against the existing release dir
+mkdir('ftp') unless (-d 'ftp');
+
 open(PT, 'templates/pageframework.html') or
     die "Can't open page framework template";
 
@@ -111,9 +121,13 @@ foreach $g (@{$menustructure}) {
 
      	        print RF @pagehtml;
                 close(RF);
+
+                copy($releasefile, "ftp/$pagehref") or
+                    die "Can't copy $pagehref to ftp dir: $!";
+
                 print "$pagehref updated\n";
             } else {
-                print "$pagehref unchanged\n";
+                print "$pagehref unchanged\n" if $verbose;
             }
         }
     }
@@ -144,7 +158,7 @@ sub publishfiles {
             my $srcsize = (stat $src)[7];
             my $tgtsize = (stat $tgt)[7];
             if ($srcsize == $tgtsize) { # skip if same date
-                print "$srcname unchanged\n";
+                print "$srcname unchanged\n" if $verbose;
                 next;
             }
         }
@@ -153,5 +167,8 @@ sub publishfiles {
 
         copy($src, $tgt) or
             die "Failed to publish file $src: $!";
+                
+        copy($src, "ftp/$srcname") or
+            die "Can't copy $srcname to ftp dir: $!";
     }
 }
