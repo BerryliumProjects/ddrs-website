@@ -19,7 +19,7 @@
 		<link href="calendar.html" text="Club Meetings" />
 		<link href="comingup.html" text="Coming Up" />
 		<link href="social.html" text="Socials" />
-		<link href="xmasmeal.html" text="Christmas Dinner" />
+		<!-- link href="xmasmeal.html" text="Christmas Dinner" /-->
 		<link href="notable.html" text="Notable Dates" />
 	</group>
 	<group topmenutext="Articles">
