@@ -1,3 +1,4 @@
 #! /bin/bash
+perl buildpages.pl
 firefox release/index.html
 
