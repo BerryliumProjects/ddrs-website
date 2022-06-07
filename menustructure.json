@@ -33,7 +33,8 @@
          { "href": "articles_wspr.html", "text": "WSPR" },
          { "href": "articles_70th_anniversary.html", "text": "70th Anniversary" },
          { "href": "articles_2el.html", "text": "Portable Beam" },
-         { "href": "articles_mifi.html", "text": "Mobile WiFi" }
+         { "href": "articles_mifi.html", "text": "Mobile WiFi" },
+         { "href": "articles_morsepractice.html", "text": "Morse Practice" }
       ]
    }
 ]
