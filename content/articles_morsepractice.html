@@ -16,6 +16,9 @@
 
 	<p> There is a main dialog, in which you design and run the exercise, and a separate results window with an analysis of how you performed, both in terms of accuracy and speed of response. In addition, the terminal shell from which perl is launched shows response time analysis detail, and is used in the &quot;visual mental word building&quot; exercise. The main dialog has a set of default settings which you can alter as required. These affect the type of exercise, what words or characters will be included, and how the audio is generated. </p>
 
+    <tr><td>
+    <img src="articles_mp_main.png" class="insetpics" />
+
 	<h2>Types of exercise </h2>
 
 	<p> Substituting artificial exercises for real-world CW copying carries the risk that the mind learns to be good at the exercise rather than the skill that it is intended to develop. For example, I found that listening and typing in what I heard, created a shortcut between my ears and my fingers which bypassed my consciousness - so didn&apos;t move me forward to my aim of improving head-copy.  So it&apos;s important to vary the types of exercises to avoid this.</p>
@@ -167,8 +170,12 @@
 	<p> It is possible to run the program in a virtual machine. I once found that such an arrangement could affect the rate of playing sound samples, resulting in the wrong pitch and WPM rates. To detect if this is occurring, click <b>Calibrate</b>. This will play &quot;000 CQ CQ&quot; at a standard treble &apos;A&apos; pitch (440 Hz) then &quot;PARIS PARIS&quot; at the selected pitch and WPM. If the A note pitch is incorrect (or less reliably, the time between the two words), you can enter a correction rate in <b>Playing rate factor</b>, which will also fix playing speed.</p>
 
 	<p> The volume of note emitted can also be adjusted. <b>Tone volume attenuation</b> reduces the volume by that number of decibels. It is recommended to increase this number until the note is quiet while remaining clearly audible. This discipline also helps to naturally reduce the perception of background noise when listening on-air. If you do this, note that shorter pulse times need more volume to be perceived accurately. </p>
+    </td></tr>
 
 	<h2>Performance analysis</h2>
+
+    <tr><td>
+    <img src="articles_mp_results.png" class="insetpics" />
 	
 	<p> If you type into the application what you hear, then it can provide some interesting analysis of your performance. It is not intended to be an objective test of how well you would cope as an on-air morse listener - there are additional skills which need to be practised to function effectively in those scenarios, such as dealing with noise, fading, other signals, unevenly formed characters, inadequate word gaps, and spelling mistakes by the sender. However getting an indication of how you are progressing can be encouraging, and highlighting which characters or sequences you find challenging can help you focus your efforts. </p>
 
@@ -219,7 +226,11 @@
 
 	<p> The <b>Success rate by position</b> report is also shown in this mode, however no reaction times are shown as these are irrelevant.</p> 
 
-	<h3>Detail in terminal output</h3>
+	    </td></tr>
+	<h2>Detail in terminal output</h2>
+
+    <tr><td>
+    <img src="articles_mp_terminal.png" class="insetpics" />
 
 	<p> After a summary of the parameters passed to the audio player component (morseplayer2.pl), a detailed log of responses and reaction times are shown at the end of the exercise. The fields shown are:
 
@@ -229,4 +240,4 @@
 	<li>reaction time to respond to the character, whatever statistical display mode is selected </li>
 	<li>typing time is the time between keystrokes (so is not reported for the first character in a word). This indicates your typing proficiency if you are responding to a word or partial word as a continuous sequence.</li></ul></p>
 
-
+	</tr></td>
