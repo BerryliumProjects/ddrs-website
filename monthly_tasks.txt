@@ -1,0 +1,34 @@
+DDRS Website
+
+Monthly update tasks
+
+
+cp content/comingup.html archive/comingup_MMMYYYY.html
+
+vim content/recent.html:
+Uncomment monthly section, update date and fill in <h3> from comingup page.
+Write review in <p>
+
+vim content/calendar.html:
+Copy the comingup.html#MMMYYYY target to the next month and adjust MMM there. Add </a>. Note speaker and topic.
+Change the existing comingup.html target to recent.html.
+
+vim content/comingup.html:
+Update anchor name, title in <h2> and author in <h3>.
+Write preview.
+
+run ./preview and verify both months' links in the calendar page redirect correctly and the pages look ok. Fix and repeat until happy.
+
+Run git diff and sanity check the changes. Remove any space at the end of lines (highlighted as solid red).
+
+Run ./publish and supply the ftp user number and password. Follow the instructions. If successful, do rm ftp/* after exiting ftp session.
+
+Browse the public website and check that all changed pages still display (have not been censored).
+
+Run git add . and git status to verify scope.
+Run git commit -m "MMM YYYY monthly updates"
+Run git push
+Confirm to chairman and events secretary that website has been updated.
+
+
+
