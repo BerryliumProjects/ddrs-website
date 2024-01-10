@@ -3,16 +3,15 @@ DDRS Website
 Monthly update tasks
 
 
-cp content/comingup.html archive/comingup_MMMYYYY.html
-
 vim content/recent.html:
 Uncomment monthly section, update date and fill in <h3> from comingup page.
 Write review in <p>
 
 vim content/calendar.html:
-Copy the comingup.html#MMMYYYY target to the next month and adjust MMM there. Add </a>. Note speaker and topic.
-Change the existing comingup.html target to recent.html.
+Copy the comingup.html target to the next month. Add </a>. Note speaker and topic.
+Change the existing comingup.html target to recent.html#MMMYYYY.
 
+cp content/comingup.html archive/comingup_MMMYYYY.html
 vim content/comingup.html:
 Update anchor name, title in <h2> and author in <h3>.
 Write preview.
