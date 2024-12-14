@@ -1,0 +1,17 @@
+At end of calendar year after Christmas social:
+
+Ensure calendar and recent pages are up to date for the whole year, and all calendar entries link to recent.html anchors. 
+Copy calendar, recent and notable pages to archive/*_YYYY.html
+
+Copy final comingup.html page to archive/*_MMMYYYY.html
+Update comingup.html page for January meeting
+
+Preview and publish final year update and commit/push to git.
+
+Update calendar page for next year's expected Tuesday meetings based on 3rd Tuesday rule. Set December Social to TBA date.
+Put Jan/Feb meeting details in if known; Clear rest of table using "&nbsp;" placeholders
+Lookup links for notable dates page, put TBA where not confirmed yet.
+Leave recent page relating to current year - update this to next year once January entry replaces all previous sections
+
+Wait until start of January before preview/publish these updates.
+
