@@ -8,10 +8,10 @@ Update comingup.html page for January meeting
 
 Preview and publish final year update and commit/push to git.
 
-Update calendar page for next year's expected Tuesday meetings based on 3rd Tuesday rule. Set December Social to TBA date.
+Update calendar page for next year's expected Tuesday meetings based on 4th Tuesday rule. Set December Social to TBA date.
 Put Jan/Feb meeting details in if known; Clear rest of table using "&nbsp;" placeholders
-Lookup links for notable dates page, put TBA where not confirmed yet.
+Lookup links for notable dates page, put just month where not confirmed yet.
 Leave recent page relating to current year - update this to next year once January entry replaces all previous sections
 
-Wait until start of January before preview/publish these updates.
+Wait until end of December before preview/publish and commit/push these updates.
 
