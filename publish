@@ -1,14 +1,11 @@
 #! /bin/bash
 pushd ftp
-echo -n 'Login as: '
-cat ../release/userid
+userid=`cat ../release/userid`
 echo 'FTP commands after login:'
-echo
-echo 'cd ddrs.org.uk'
-echo 'mput *'
+echo 'put * .'
 echo 'bye'
-ftp -p -i ddrs.org.uk
+sftp sftp://${userid}@ddrs.org.uk:221/ddrs.org.uk
 popd
 echo
 echo 'If transfer was successful: rm ftp/*'
-
+cat release/reminder
